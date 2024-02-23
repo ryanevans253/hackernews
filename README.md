@@ -1,6 +1,6 @@
 # Hacker News Top 10
 
-Hacker News Reader is a React application that fetches and displays top 10 stories from Hacker News.
+Hacker News Reader is a React application that fetches and displays top 10 stories from Hacker News. I built it with with React and TypeScript. I used React Query/Tanstack so that it will refetch the data in the background as the articles are updated, only if they have changed. This will prevent unnecessary rendering and avoids complicated state management. It provides automatic caching and will refetch when the browser window is refocused if the data is stale.
 
 ## Installation
 
